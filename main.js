@@ -13,6 +13,7 @@ to_number = 0;
 function preload()
 {
   apple = loadImage("apple.png");
+  appple = loadImage("apppple.png");
 }
 
 var SpeechRecognition = window.webkitSpeechRecognition;
@@ -54,6 +55,7 @@ function setup() {
 }
 
 function draw() {
+  image(apple , 0 , 0 , 100 , 200)
   if(draw_apple == "set")
   {
     for(var i = 1 ; i <= to_number; i++)
